@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        #hindi{
+            background-color: aqua;
+            width: 400px;
+        }
+        #english{
+            background-color: blueviolet;
+            width: 400px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h2>List in HTML</h2>
+    <hr>
+    <p>Ordered List</p>
+    <!-- ol-ordered list
+    ul-Unorderd List -->
+    <!-- <ol>
+        <li>Daal</li>
+        <li>Rice</li>
+        <li>Sugar</li>
+        <li>Wheat</li>
+        <li>Tea leaves</li>
+    </ol>
+
+    <ul>
+        <li>Avi</li>
+        <li>Yash</li>
+        <li>Shubham</li>
+        <li>Bada Talab</li>
+    </ul> -->
+    <hr>
+    <p>Nested List</p>
+    <hr>
+    <ol style="list-style-type: upper-alpha;">
+        <li>English
+            <ol id="english" style="list-style-type: lower-roman;">
+               <li>English Literature</li> 
+               <li>English Grammar</li>
+            </ol>
+
+        </li>
+        <li>Hindi
+            <ol id="hindi" style="list-style-type:lower-alpha">
+                <li>Hindi Literature</li> 
+                <li>Hindi Grammar</li>
+             </ol>
+        </li>
+    </ol>
+</body>
+</html>

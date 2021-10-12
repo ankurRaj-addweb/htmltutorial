@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <style>
+        .form{
+            background-image: url(image/form2.jpg);
+            width:fit-content;
+           padding: 20px;
+           border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3>Submit You Form</h3>
+    <hr>
+    <div class="form">
+    <form>
+        Enter the Password:
+        <input type="password" placeholder="Enter Password" required>
+        Enter You User Name:
+        <input type="text" placeholder="Enter User Name" required>
+        <br><br>
+        Enter Address:
+        <textarea name="address" id="address" cols="20" rows="3" placeholder="Enter Address" required></textarea>
+        <br><br>
+        Select Training Program:
+        <input type="checkbox" name="python">Python
+        <input type="checkbox" name="PHP">PHP
+        <input type="checkbox" name="Java">JAVA
+        <br><br>
+        Select the Group you Belong:
+        <input type="radio" name="group1" value="group1">Group 1
+        <input type="radio" name="group1" value="group1">Group 2
+        <input type="radio" name="group1" value="group1">Group 3
+        <br><br>
+        Which Training Program you attend:
+        <select name="" id="">
+            <option value="JS">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="php">PHP</option>
+        </select>
+        <br><br>
+        Upload you file:<input type="file" name="">
+        
+        
+        <br><br>
+        <input type="button" name="button" value="Exit">
+        <input type="Submit" value="Save" name="sbutton">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+</body>
+</html>
